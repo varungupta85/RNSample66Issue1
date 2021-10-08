@@ -10,10 +10,9 @@
 		00E356F31AD99517003FC87E /* RNSample66Issue1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNSample66Issue1Tests.m */; };
 		08B3BF3D396C62CEF74D8A93 /* libPods-RNSample66Issue1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D453321AEC1D893E41596DAC /* libPods-RNSample66Issue1.a */; };
 		10FE88794D6A51B480FD6367 /* libPods-RNSample66Issue1-RNSample66Issue1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8378BBE5147B57CCD7DEE9 /* libPods-RNSample66Issue1-RNSample66Issue1Tests.a */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E97A3F412710C04F00839CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A3F402710C04F00839CF0 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +30,8 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNSample66Issue1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNSample66Issue1Tests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNSample66Issue1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNSample66Issue1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNSample66Issue1/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNSample66Issue1/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNSample66Issue1/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNSample66Issue1/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNSample66Issue1/main.m; sourceTree = "<group>"; };
 		4E8378BBE5147B57CCD7DEE9 /* libPods-RNSample66Issue1-RNSample66Issue1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSample66Issue1-RNSample66Issue1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E80EAE0E87A34779DEE378 /* Pods-RNSample66Issue1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample66Issue1.release.xcconfig"; path = "Target Support Files/Pods-RNSample66Issue1/Pods-RNSample66Issue1.release.xcconfig"; sourceTree = "<group>"; };
 		6D4E114252ACF22AABD18EF2 /* Pods-RNSample66Issue1-RNSample66Issue1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample66Issue1-RNSample66Issue1Tests.release.xcconfig"; path = "Target Support Files/Pods-RNSample66Issue1-RNSample66Issue1Tests/Pods-RNSample66Issue1-RNSample66Issue1Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,6 +39,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNSample66Issue1/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA71C9CBB11222401DEE738 /* Pods-RNSample66Issue1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSample66Issue1.debug.xcconfig"; path = "Target Support Files/Pods-RNSample66Issue1/Pods-RNSample66Issue1.debug.xcconfig"; sourceTree = "<group>"; };
 		D453321AEC1D893E41596DAC /* libPods-RNSample66Issue1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSample66Issue1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A3F3F2710C04D00839CF0 /* RNSample66Issue1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNSample66Issue1-Bridging-Header.h"; sourceTree = "<group>"; };
+		E97A3F402710C04F00839CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,12 +84,11 @@
 		13B07FAE1A68108700A75B9A /* RNSample66Issue1 */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				E97A3F402710C04F00839CF0 /* AppDelegate.swift */,
+				E97A3F3F2710C04D00839CF0 /* RNSample66Issue1-Bridging-Header.h */,
 			);
 			name = RNSample66Issue1;
 			sourceTree = "<group>";
@@ -114,7 +111,6 @@
 				78523F94234BCF67D5207DDD /* Pods-RNSample66Issue1-RNSample66Issue1Tests.debug.xcconfig */,
 				6D4E114252ACF22AABD18EF2 /* Pods-RNSample66Issue1-RNSample66Issue1Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +204,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -411,8 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				E97A3F412710C04F00839CF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78523F94234BCF67D5207DDD /* Pods-RNSample66Issue1-RNSample66Issue1Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -458,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D4E114252ACF22AABD18EF2 /* Pods-RNSample66Issue1-RNSample66Issue1Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RNSample66Issue1Tests/Info.plist;
@@ -496,8 +493,10 @@
 					"-ObjC",
 					"-lc++",
 				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit/YogaKit.modulemap\" -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/FlipperKit/FlipperKit.modulemap\" -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/React/React-Core.modulemap\" -Xcc -fmodule-map-file=\"${PODS_ROOT}/Headers/Public/yoga/Yoga.modulemap\" -Xcc -DFB_SONARKIT_ENABLED=1 -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNSample66Issue1;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNSample66Issue1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -523,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNSample66Issue1;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNSample66Issue1-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
